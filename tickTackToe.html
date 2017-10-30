@@ -3,13 +3,13 @@
     <link rel="shortcut icon" href="favicon.ico" >
     <link rel="icon" type="image/gif" href="animated_favicon1.gif" >
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="ball.js"></script>
+    <script src="ticktacktoescript.js"></script>
       <title>
-        Magic 8 Ball
+        Tick Tack Toe
       </title>
   </head>
-  <body onload="getImage()">
-    <div>
+  <body>
+    <div id="container">
       <nav>
         <a href="index.html" />
             Home
@@ -25,20 +25,26 @@
         </a>
       </nav>
       <section>
-        <img id="magic8ball"
-        src=""
-        onclick="shakeMagic8Ball();"
-        />
-        <p id="results">
-            Click the magic 8 ball to tell your fortune.
-        </p>
-      </section>
-    </div>
-    <div>
-      <img id="harold" src="" />
-    </div>
+        <input id="reset" type="button" value="ReSeT" onclick="clear()"/>
 
-      </br>
+      </section>
+      <!-- This is empty for now -->
+      <div id="ticktacktoeboard">
+        <div id="r1c1" onclick="turn('r1c1')" class="box"></div>
+        <div id="r1c2" onclick="turn('r1c2')" class="box"></div>
+        <div id="r1c3" onclick="turn('r1c3')" class="box"></div>
+        <div id="r2c1" onclick="turn('r2c1')" class="box"></div>
+        <div id="r2c2" onclick="turn('r2c2')" class="box"></div>
+        <div id="r2c3" onclick="turn('r2c3')" class="box"></div>
+        <div id="r3c1" onclick="turn('r3c1')" class="box"></div>
+        <div id="r3c2" onclick="turn('r3c2')" class="box"></div>
+        <div id="r3c3" onclick="turn('r3c3')" class="box"></div>
+      </div>
+      <section id="results">
+        CLick to start...
+      </section>
+      </div>
+
     <footer>
       <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
       <script>
@@ -47,6 +53,7 @@
       </script>
       <section>
         This page is using javascript to mine Monero
+      </br>
         EURO COOKIE DISCLAIMER/PRIVACY POLICY: This page DoEs NoT use cookies.
       </section>
     </footer>
