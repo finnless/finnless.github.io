@@ -3,15 +3,21 @@ var char = 'X';
 //THis function handles the onclick event
 function turn(location) {
 
-  //switch between X and O
-  if (char == 'X') {
-    char = 'O';
-  }
-  else{
-    char = 'X';
+  if(document.getElementById(location).innerHTML == ''){
+      document.getElementById(location).innerHTML = char;
+
+      //switch between X and O
+      if (char == 'X') {
+        char = 'O';
+      }
+      else{
+        char = 'X';
+      }
+
+      //update results div with feedback
+      document.getElementById("results").innerHTML = "It's " + char + "'s turn!"
   }
 
-  document.getElementById(location).innerHTML = char;
 
 }
 
