@@ -53,6 +53,14 @@ function checkWinner(){
     //game is over now
     gameOver = true;
 
+    //switch between X and O
+    if (char == 'X') {
+      char = 'O';
+    }
+    else{
+      char = 'X';
+    }
+
     //update results div
     document.getElementById("results").innerHTML = char + " wins!";
   }
