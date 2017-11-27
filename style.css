@@ -39,3 +39,15 @@ nav{
     font-family: serif;
     font-size: 90px;
 }
+
+/* Start of clickable */
+
+#circle{
+    height: 100px;
+    width:100px;
+    background-color: #66C7F4;
+    border-radius: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
