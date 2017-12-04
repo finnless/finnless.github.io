@@ -2,12 +2,11 @@
 function randomCircle(){
 
     //randomly get the top positions
+    document.getElementById("circle").style.top = randomNum();
 
     //randomly get left positions
+    document.getElementById("circle").style.left = randomNum();
 
-    //update position of cirlce
-
-    document.getElementById("circle").style.top = //random;
 
 }
 
@@ -16,10 +15,12 @@ function randomCircle(){
 //when a random circle is clicked in clickPanel, it disappears
 //then generates a new randomCircle
 function clickCircle(){
-
-    //circle is clicked, hide circle
-    document.getElementById("circle").style.visibility = "hidden";
-
     //generate random circle
+    randomCircle();
+}
 
+
+//random number
+function randomNum(){
+    return Math.floor(Math.random() * 501);
 }
