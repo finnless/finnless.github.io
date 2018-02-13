@@ -1,15 +1,15 @@
-#Overview
+# Overview
 [TypeAI, Egotype, DebateType, Typerly, DebateIO, Wordial] is a online, multi-authoring, live editing, high performance, local storage, minimalistic text editor. Files are saved by default using the Markdown standard. It can be deployed locally, in a database, or on git. It has the ability to import and convert HTML, docx, pdf, txt, as well as other formats into the workspace.
 
 The current options for word processing are too slow, expensive, and complex.
 
 
-#Features
-##Card Block Collapsibility
+# Features
+## Card Block Collapsibility
 
 
 
-#Brainstorm
+# Brainstorm
 
 > HTML has a companion technology that does just the same thing – EPUB. EPUB is an ebook format which is also just a zip file. You can do the same trick to open an EPUB as you used to open a .docx file. So why not use EPUB as a local storage format for desktop word processing?
 >
@@ -37,7 +37,7 @@ Quoted sections/ code blocks should be collapsable. The motivation of this is in
 
 
 
-#HTML formating
+# HTML formating
 
 This is copied from google docs, simplified, minimilized, then anotated.
 
