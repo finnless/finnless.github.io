@@ -15,7 +15,7 @@ The current options for word processing are too slow, expensive, and complex.
 >
 > ​	- [The Case for HTML Word Processors](https://www.adamhyde.net/html-word-processors/)
 
-I can reference existing online word editors such as [Word Online](https://onedrive.live.com) and [Google Docs](https://docs.google.com).
+I can reference existing online word editors such as [Word Online](https://onedrive.live.com) and [Google Docs](https://docs.google.com). There is also a markdown formatting tool for websites that support rich editing like gmail called [Markdown Here](https://markdown-here.com). It's open source so it can be used as another reference.
 
 There would be a UI layer that uses HTML and CSS to display to the user. There is a live js converter between the UI and the markdown data. The Markdown is stored in database.
 
@@ -26,6 +26,8 @@ There would be a UI layer that uses HTML and CSS to display to the user. There i
 > ​	- [Firebase Docs](https://firebase.google.com/docs/database/)
 
 
+
+[Firebase PDF guide](https://www.tutorialspoint.com/firebase/firebase_tutorial.pdf)
 
 This word processor is not intended to set formatting. It is designed to be a good place to record, share, collaborate, and manipulate ideas. Formatting is distracting from this intention. You can customize your view of content through themes and stuff, but the files you save are plain. This is inspired by other minimalistic customizable editor software like Atom and Typora.
 
@@ -38,6 +40,10 @@ Quoted sections/ code blocks should be collapsable. The motivation of this is in
 
 
 # HTML formating
+
+
+
+##Google Docs
 
 This is copied from google docs, simplified, minimilized, then anotated.
 
@@ -79,3 +85,54 @@ All font is set in head. It is uniform.
 </div>
 ```
 
+
+
+Look to gramarlys add-on editor for no-formatting word processor.
+
+
+
+##Gmail Compose
+
+This is copied from a sample message in gmail, simplified, minimilized, then anotated.
+
+Gmail uses mixed [HTML Tables](https://www.w3schools.com/html/html_tables.asp) as the content area, likley because "They can contain all sorts of HTML elements; text, images, lists, other tables, etc.."
+
+```html
+<table cellpadding="0" class="cf An" id="undefined"> <!-- -->
+    <tbody>
+        <tr>
+            <td class="Aq">&nbsp;</td>
+            <td class="Ap">
+                <div id="undefined" class="Ar As">
+                    <div class="At">
+                        <textarea id=":or" class="Ak aXjCH" style="" aria-label="Message Body" spellcheck="true" itacorner="6,7:1,1,0,0" tabindex="1" form="nosend">
+                        </textarea>
+                    </div>
+                </div>
+                <div id=":oq" class="Ar Au" style="display: block;">
+                    <div id=":om" class="Am Al editable LW-avf" hidefocus="true" aria-label="Message Body" g_editable="true" role="textbox" aria-multiline="true" contenteditable="true" tabindex="1" itacorner="6,7:1,1,0,0" style="direction: ltr; min-height: 40px;" data-gramm_id=" <!-- Censored - Some kind of UUID --> " data-gramm="true" spellcheck="false" data-gramm_editor="true">
+                        Hello <!-- Has space within content field indicating that it shares formatting-->
+                        <b>bold</b> <!-- Does not have space within content field. Space character is default format indicated by &nbsp; -->
+                        &nbsp;
+                        <i>Ital </i> <!-- Has space within content field indicating that it shares formatting-->
+                        <u>Under</u> <!-- Does not have space within content field. Space character is default format indicated by &nbsp; -->
+                        &nbsp;
+                        <font size="4">Large</font>
+                        &nbsp;
+                        <span style="background-color: rgb(255, 255, 0);">Yellow</span> <!-- Highlight uses span. Allows for multiple highlight colors. -->
+                        <b class=""></b>
+                    </div>
+                </div>
+            </td>
+            <td class="Aq">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+
+I guess it can also do LaTaX:
+
+$$
+f^{-1}(x)=blah
+$$
