@@ -1,5 +1,5 @@
 # Overview
-[TypeAI, Egotype, DebateType, Typerly, DebateIO, Wordial] is a online, multi-authoring, live editing, high performance, local storage, minimalistic text editor. Files are saved by default using the Markdown standard. It can be deployed locally, in a database, or on git. It has the ability to import and convert HTML, docx, pdf, txt, as well as other formats into the workspace.
+[TypeAI [typeai.org], Egotype, DebateType, Typerly, DebateIO, Wordial] is a online, multi-authoring, live editing, high performance, local storage, minimalistic text editor. Files are saved by default using the Markdown standard. It can be deployed locally, in a database, or on git. It has the ability to import and convert HTML, docx, pdf, txt, as well as other formats into the workspace.
 
 The current options for word processing are too slow, expensive, and complex.
 
@@ -131,8 +131,15 @@ Gmail uses mixed [HTML Tables](https://www.w3schools.com/html/html_tables.asp) a
 ```
 
 
-I guess it can also do LaTaX:
 
+## Making content editable
+
+[Mozilla web docs article on making content editable](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content)
+
+[Use EventListener as input for keys](https://stackoverflow.com/questions/4416505/how-to-take-keyboard-input-in-javascript)
+
+
+I guess it can also do LaTaX:
 $$
 f^{-1}(x)=blah
 $$
