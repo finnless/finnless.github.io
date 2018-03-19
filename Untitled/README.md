@@ -87,6 +87,18 @@ All font is set in head. It is uniform.
 
 
 
+Curser:
+
+```html
+<div class="kix-cursor docs-ui-unprintable" style="opacity: 0; left: 381px; top: 1551px;">
+    <div class="kix-cursor-caret" style="border-color: rgb(0, 0, 0); height: 17.6px;"></div>
+    <div class="kix-cursor-top" style="opacity: 0; display: none;"></div>
+    <div class="kix-cursor-name" style="opacity: 0; display: none;"></div>
+</div>
+```
+
+
+
 Look to gramarlys add-on editor for no-formatting word processor.
 
 
@@ -110,7 +122,7 @@ Gmail uses mixed [HTML Tables](https://www.w3schools.com/html/html_tables.asp) a
                     </div>
                 </div>
                 <div id=":oq" class="Ar Au" style="display: block;">
-                    <div id=":om" class="Am Al editable LW-avf" hidefocus="true" aria-label="Message Body" g_editable="true" role="textbox" aria-multiline="true" contenteditable="true" tabindex="1" itacorner="6,7:1,1,0,0" style="direction: ltr; min-height: 40px;" data-gramm_id=" <!-- Censored - Some kind of UUID --> " data-gramm="true" spellcheck="false" data-gramm_editor="true">
+                    <div id=":om" class="Am Al editable LW-avf" hidefocus="true" aria-label="Message Body" g_editable="true" role="textbox" aria-multiline="true" contenteditable="true" tabindex="1" itacorner="6,7:1,1,0,0" style="direction: ltr; min-height: 40px;" data-gramm_id=" <!-- Censored - Some kind of UUID --> " data-gramm="true" spellcheck="false" data-gramm_editor="true"> <!-- HAS CONTENT EDITABLE TAG -->
                         Hello <!-- Has space within content field indicating that it shares formatting-->
                         <b>bold</b> <!-- Does not have space within content field. Space character is default format indicated by &nbsp; -->
                         &nbsp;
@@ -136,7 +148,27 @@ Gmail uses mixed [HTML Tables](https://www.w3schools.com/html/html_tables.asp) a
 
 [Mozilla web docs article on making content editable](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content)
 
+[Spell Check tag for content editable w3 school](https://www.w3schools.com/tags/att_global_spellcheck.asp)
+
+In above Gmail example contenteditable tag is present.
+
+Google Docs has this in active elements but not page source. Maybe from JS?
+
+```html
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+    <body spellcheck="false" role="textbox" aria-multiline="true" aria-label="Document content" contenteditable="true" style="background-color: transparent;"></body>
+</html>
+```
+
+
+
 [Use EventListener as input for keys](https://stackoverflow.com/questions/4416505/how-to-take-keyboard-input-in-javascript)
+
+
 
 
 I guess it can also do LaTaX:
