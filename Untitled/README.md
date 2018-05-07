@@ -39,6 +39,46 @@ Quoted sections/ code blocks should be collapsable. The motivation of this is in
 
 
 
+Combonation of best aspects of google docs edit history and git version control. Git is overarching system. Live editing and saving. Every edit is saved like google docs. Each edit gets a git version. Major changes can be saved through commits.
+
+
+
+Google docs suggustions show up as usual. Identical github type issue is created tracking the suggustion. Github issue mechanics are applied.
+
+
+
+Related Links to Git Google Docs:
+
+https://community.rstudio.com/t/version-control-with-google-drive/4032/2
+
+https://zapier.com/apps/github/integrations/google-docs
+
+https://webapps.stackexchange.com/questions/25592/import-google-docs-document-revision-history-into-a-git-repository
+
+https://github.com/max-barry/google-drive-cms
+
+
+
+Drive API:
+
+https://developers.google.com/drive/v2/reference/
+
+
+
+This spooky boi made the exact thing I was thinking of using the exact same framework from aaron:
+
+https://github.com/promptworks/gitdriver/commit/d246a76baf651df826df5f191d1e5afe05a5a695
+
+
+
+
+
+[GitHub Table of Contents markdown generator repo](https://github.com/ekalinin/github-markdown-toc)
+
+
+
+Can save to .md (Standard markdown file. Media must be seperate.) or .mdx (MarkDownXtended). Custom flavored markdown. has media included. All content is zipped. .mdx is just a zip file like .docx.
+
 # HTML formating
 
 
