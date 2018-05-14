@@ -4,6 +4,20 @@
 The current options for word processing are too slow, expensive, and complex.
 
 
+
+Very simmilar project: [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
+
+https://en.wikipedia.org/wiki/Etherpad
+
+https://github.com/ether/ep_markdown
+
+Ok they have officaly done everything. I should just modify this.
+
+
+
+Use socket.io
+
+
 # Features
 ## Card Block Collapsibility
 
