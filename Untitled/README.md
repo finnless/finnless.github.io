@@ -13,9 +13,29 @@ https://github.com/ether/ep_markdown
 
 Ok they have officaly done everything. I should just modify this.
 
-
-
 Use socket.io
+
+
+
+Some one elses modification of Etherpad. Can use as reference. https://github.com/edy/SciFlowWriter
+
+
+
+Etherpad Plugins: https://static.etherpad.org/plugins.html
+
+
+
+Manual and Documentation:
+
+http://etherpad.org/doc/v1.5.7/
+
+http://etherpad.org/doc/v1.6.2/
+
+Sample Wikipedia Pad: https://etherpad.wikimedia.org/p/K2TiFjtBPo
+
+
+
+Alt Confluence Storage format: https://confluence.atlassian.com/doc/confluence-storage-format-790796544.html
 
 
 # Features
