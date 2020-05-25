@@ -3,7 +3,67 @@
 
 The current options for word processing are too slow, expensive, and complex.
 
+http://ricardo.ecn.wfu.edu/~cottrell/wp.html
 
+[Ulysses](https://itunes.apple.com/us/story/id1440677467)
+
+[iA Writer](https://itunes.apple.com/us/app/ia-writer/id775737590?mt=12)
+
+
+
+[List of HTML editors](https://en.wikipedia.org/wiki/List_of_HTML_editors)
+
+[WYSIWYM](https://en.wikipedia.org/wiki/WYSIWYM)
+
+[The Case for HTML Word Processors](https://www.adamhyde.net/html-word-processors/)
+
+[Composer, a potential HTML based word processor](http://freesoftwaremagazine.com/articles/composer_potential_html_based_word_processor/)
+
+
+
+
+
+[Is it possible to specify a starting number for an ordered list? - StackOverflow](https://stackoverflow.com/questions/779016/is-it-possible-to-specify-a-starting-number-for-an-ordered-list)
+
+
+
+Micro Editor **GET IT NOW**
+
+https://micro-editor.github.io/
+
+https://www.reddit.com/r/linuxmemes/comments/foo2h2/linux_users_be_like/flhzguh/
+
+
+
+
+
+Found this when looking for way to archive revision history. Way more helpful for this project:
+
+http://features.jsomers.net/how-i-reverse-engineered-google-docs/
+
+http://jsomers.net/blog/jimbopad
+
+https://www.theatlantic.com/technology/archive/2010/12/the-simple-software-that-could-but-probably-wont-change-the-face-of-writing/68364/
+
+https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/
+
+
+
+
+
+Even simmilarer program. (Thanks Kevin for showing it to me)
+
+(notion.so)[https://news.ycombinator.com/item?id=12796027]
+
+
+
+use emacs? Maybe some hidden virtue. Lots of programers use it. emacs/org-mode
+
+(Evernote Web Clipper)[https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc]
+
+
+
+Wow. This is Epic. This might be the one boys. Sounds more simmilar than ever: https://stackedit.io
 
 Very simmilar project: [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
 
@@ -38,6 +98,34 @@ Sample Wikipedia Pad: https://etherpad.wikimedia.org/p/K2TiFjtBPo
 Alt Confluence Storage format: https://confluence.atlassian.com/doc/confluence-storage-format-790796544.html
 
 
+
+https://colab.research.google.com
+
+https://jupyter.org/
+
+
+
+Github Has a markdown to html compiler in Readmes
+
+
+
+https://docs.google.com/document/d/1BtXO-F2rGHQhmZ4knyGbmLV_-r5sUbXn2gQHQ9lE9yw/edit
+
+
+
+How Git works:
+
+https://stackoverflow.com/questions/8198105/how-does-git-store-files
+
+https://try.github.io/
+
+https://maryrosecook.com/blog/post/git-from-the-inside-out
+
+https://medium.freecodecamp.org/understanding-git-for-real-by-exploring-the-git-directory-1e079c15b807
+
+
+
+
 # Features
 ## Card Block Collapsibility
 
@@ -50,6 +138,10 @@ Alt Confluence Storage format: https://confluence.atlassian.com/doc/confluence-s
 > ​	- [The Case for HTML Word Processors](https://www.adamhyde.net/html-word-processors/)
 
 I can reference existing online word editors such as [Word Online](https://onedrive.live.com) and [Google Docs](https://docs.google.com). There is also a markdown formatting tool for websites that support rich editing like gmail called [Markdown Here](https://markdown-here.com). It's open source so it can be used as another reference.
+
+Google Docs and Drive creators have a blog where they outline their approach: https://news.softpedia.com/news/Behind-the-Scenes-of-Google-Docs-Real-Time-Collaboration-Technology-157692.shtml
+
+Look at the link they give. Change docs.googleblog.com to drive.googleblog.com and look around a bit to find a lot of stuff.
 
 There would be a UI layer that uses HTML and CSS to display to the user. There is a live js converter between the UI and the markdown data. The Markdown is stored in database.
 
@@ -65,6 +157,8 @@ There would be a UI layer that uses HTML and CSS to display to the user. There i
 
 This word processor is not intended to set formatting. It is designed to be a good place to record, share, collaborate, and manipulate ideas. Formatting is distracting from this intention. You can customize your view of content through themes and stuff, but the files you save are plain. This is inspired by other minimalistic customizable editor software like Atom and Typora.
 
+https://abnerlee.github.io/typora/2015/03/11/why-typora/
+
 I found out that other major word processor file formats are just zipped folders with different media types such as xml and png. Maybe I could do something like this where images and other media are included.
 
 Should be really good at handling numbered and non numbered lists. Easily tab in and out of lists. Figure out how to go deeper than the supposed maximum of two spaces with markdown.
@@ -78,6 +172,8 @@ Combonation of best aspects of google docs edit history and git version control.
 
 
 Google docs suggustions show up as usual. Identical github type issue is created tracking the suggustion. Github issue mechanics are applied.
+
+Git has complete adabtability with issues permissions. Google docs only allows people with editing permission to make suggustions. The same people who can make suggustions can also accept them. This defeats the point of permissions.
 
 
 
@@ -102,6 +198,14 @@ https://developers.google.com/drive/v2/reference/
 This spooky boi made the exact thing I was thinking of using the exact same framework from aaron:
 
 https://github.com/promptworks/gitdriver/commit/d246a76baf651df826df5f191d1e5afe05a5a695
+
+
+
+https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive
+
+https://webapps.stackexchange.com/questions/91157/how-can-i-download-a-huge-folder-from-google-drive
+
+DRIVE CLI THIS IS IT: https://github.com/odeke-em/drive
 
 
 
@@ -219,6 +323,14 @@ Gmail uses mixed [HTML Tables](https://www.w3schools.com/html/html_tables.asp) a
 
 
 ## Making content editable
+
+<https://stackoverflow.com/questions/4457487/what-is-the-g-editable-attribute>
+<https://www.w3schools.com/tags/att_global_contenteditable.asp>
+<https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content>
+
+
+
+
 
 [Mozilla web docs article on making content editable](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content)
 
