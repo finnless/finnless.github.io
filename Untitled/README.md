@@ -11,6 +11,12 @@ http://ricardo.ecn.wfu.edu/~cottrell/wp.html
 
 
 
+Realtime collaborative Markdown Notes:
+
+https://github.com/codimd/server / https://demo.codimd.org/
+
+
+
 [List of HTML editors](https://en.wikipedia.org/wiki/List_of_HTML_editors)
 
 [WYSIWYM](https://en.wikipedia.org/wiki/WYSIWYM)
@@ -92,6 +98,30 @@ http://etherpad.org/doc/v1.5.7/
 http://etherpad.org/doc/v1.6.2/
 
 Sample Wikipedia Pad: https://etherpad.wikimedia.org/p/K2TiFjtBPo
+
+
+
+1/3/2021:
+
+https://medium.com/usevim/collaborative-vim-f31f4d75d726
+
+https://github.com/bwasti/vim-multiuser
+
+https://github.com/Floobits/floobits-vim
+
+https://github.com/FredKSchott/CoVim
+
+https://github.com/guyzmo/vim-etherpad
+
+https://github.com/LaKing/ep_codepad
+
+
+
+2/2/2021:
+
+[Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/)
+
+
 
 
 
